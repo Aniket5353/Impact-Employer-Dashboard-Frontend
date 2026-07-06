@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/Impact-Employer-Dashboard/",
+  // base: "/Impact-Employer-Dashboard/",
   server: {
     port: 5173,
   },

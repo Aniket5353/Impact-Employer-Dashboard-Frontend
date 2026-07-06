@@ -13,7 +13,7 @@ export default function App() {
   return (
     <Routes>
       <Route path="/" element={<Navigate to="/employer" replace />} />
-      <Route path="/employer" element={<EmployerLayout />}>
+      <Route path="/" element={<EmployerLayout />}>
         <Route index element={<Overview />} />
         <Route path="jobs" element={<Jobs />} />
         <Route path="post-job" element={<PostJob />} />
